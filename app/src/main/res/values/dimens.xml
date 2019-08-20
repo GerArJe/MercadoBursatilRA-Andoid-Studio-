@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_horizontal_login">32dp</dimen>
+    <dimen name="marginTop_signInButton">50dp</dimen>
+    <dimen name="width_btn_menu">300dp</dimen>
+    <dimen name="marginTop_btn_menu">20dp</dimen>
+</resources>
