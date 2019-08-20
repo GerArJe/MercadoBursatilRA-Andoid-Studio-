@@ -38,7 +38,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_main);
+        setContentView(R.layout.activity_login);
 
         btnSignInGoogle = findViewById(R.id.btnSignInGoogle);
         progressbarLogin = findViewById(R.id.progressbarLogin);
