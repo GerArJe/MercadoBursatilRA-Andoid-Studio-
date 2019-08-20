@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1051259399996",
+    "firebase_url": "https://mercadobursatilra-2c9c3.firebaseio.com",
+    "project_id": "mercadobursatilra-2c9c3",
+    "storage_bucket": "mercadobursatilra-2c9c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051259399996:android:678fbaec70e8de15",
+        "android_client_info": {
+          "package_name": "com.gerarje.mercadobursatilra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051259399996-elo461t9ouu3cd6epgjdijdmjqlomfea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gerarje.mercadobursatilra",
+            "certificate_hash": "c56dbd538247f2cf195f0a4aa6e963318f817e43"
+          }
+        },
+        {
+          "client_id": "1051259399996-0dmdaqfoettm2sdqmdbmrjqabmh4jsmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ3X3hUsWFYFI7TgI0__Ty6E0rQHsZ3tM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051259399996-0dmdaqfoettm2sdqmdbmrjqabmh4jsmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
