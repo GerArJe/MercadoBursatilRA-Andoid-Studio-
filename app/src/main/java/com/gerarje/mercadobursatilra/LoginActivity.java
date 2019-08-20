@@ -26,7 +26,7 @@ import com.google.firebase.auth.GoogleAuthProvider;
 
 public class LoginActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener{
 
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "LoginActivity";
     private static final int SIGN_IN_GOOGLE_CODE = 1;
     private FirebaseAuth firebaseAuth;
     private FirebaseAuth.AuthStateListener authStateListener;
