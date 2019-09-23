@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/border_radius"
-        android:text="@string/text_btn_instructions"
+        android:text="@string/text_btn_resources"
         android:layout_marginTop="@dimen/marginTop_btn_menu"
         />
     <Button
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/border_radius"
-        android:text="@string/text_btn_help"
+        android:text="@string/text_btn_glosario"
         android:layout_marginTop="@dimen/marginTop_btn_menu"
         />
     <Button
@@ -45,16 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/border_radius"
-        android:text="@string/text_btn_FAQ"
-        android:layout_marginTop="@dimen/marginTop_btn_menu"
-        />
-    <Button
-        android:id="@+id/btnSignOut"
-        android:layout_width="@dimen/width_btn_menu"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/border_radius"
-        android:text="@string/text_btn_signOut"
+        android:text="@string/text_btn_creditos"
         android:layout_marginTop="@dimen/marginTop_btn_menu"
         />
 

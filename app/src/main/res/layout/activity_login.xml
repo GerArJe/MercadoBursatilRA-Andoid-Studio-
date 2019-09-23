@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,68 +7,23 @@
     android:fitsSystemWindows="true"
     tools:context=".ui.LoginActivity"
     android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    android:gravity="bottom"
     >
 
-    <LinearLayout
+    <ViewFlipper
+        android:id="@+id/vf_logo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:weightSum="1"
-        >
+        android:layout_centerHorizontal="true"
+        tools:background="@drawable/slide1"/>
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="0.6"
-            >
-
-            <ViewFlipper
-                android:id="@+id/vf_logo"
-                android:layout_width="250dp"
-                android:layout_height="250dp"
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/btn_start"
+        android:background="@drawable/border_radius"
+        android:onClick="goToMenu"/>
 
 
-                android:layout_centerHorizontal="true" />
-
-        </RelativeLayout>
-
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="0.4"
-            android:fillViewport="true"
-            >
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:padding="@dimen/padding_horizontal_login">
-
-                <com.google.android.gms.common.SignInButton
-                    android:id="@+id/btnSignInGoogle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="@dimen/marginTop_signInButton"
-                    />
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center">
-
-                    <ProgressBar
-                        android:id="@+id/progressbarLogin"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-
-                </RelativeLayout>
-            </LinearLayout>
-        </ScrollView>
-
-
-
-    </LinearLayout>
-
-</android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

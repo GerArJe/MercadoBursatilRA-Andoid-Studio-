@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">MercadoBursatilRA</string>
-    <string name="text_btn_signOut">Cerrar sesión</string>
     <string name="text_btn_AR">Iniciar AR</string>
-    <string name="text_btn_instructions">Instrucciones</string>
-    <string name="text_btn_help">Ayuda</string>
-    <string name="text_btn_FAQ">FAQ</string>
+    <string name="text_btn_resources">Recursos</string>
+    <string name="text_btn_glosario">Glosario</string>
+    <string name="text_btn_creditos">Creditos</string>
+    <string name="btn_start">Iniciar</string>
 </resources>
