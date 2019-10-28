@@ -16,6 +16,8 @@
         android:text="solo prueba"
         android:id="@+id/txt_titulovideo"
         android:textColor="@color/text_Color"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         />
 
     <WebView

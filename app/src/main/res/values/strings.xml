@@ -6,7 +6,7 @@
     <string name="text_btn_creditos">Creditos</string>
     <string name="btn_start">Iniciar</string>
     <string name="btn_back">Regresar</string>
-    <string name="txt_creditos_name"><b>Desarrolladores</b> \n\n Ruthber Antonio Escorcia Cabrera \n\n German Arevalo Jerez \n\n <b>Director</b> Julian Santoyo</string>
+    <string name="txt_creditos_name"><b>Desarrolladores</b> \n\n Ruthber Antonio Escorcia Cabrera \n\n German Arevalo Jerez \n\n <b>Director</b> \n\n Julian Santoyo \n\n</string>
     <string name="glosario_titulo">GLOSARIO</string>
     <string name="creditos_titulo">CRÉDITOS</string>
     <string name="text_sem"><b>Realidad aumentada:</b> es una tecnología que complementa la percepción e interacción con el mundo real y permite al usuario estar en un entorno real aumentado con información adicional generada por un dispositivo. \n\n<b>HUD:</b> En informática, principalmente en los videojuegos, se llama HUD (Head-Up Display o visualización cabeza-arriba, también conocido como barra de estado) a la información que en todo momento se muestra en pantalla durante la partida, generalmente en forma de iconos y números. El HUD suele mostrar el número de vidas, puntos, nivel de salud y armadura,

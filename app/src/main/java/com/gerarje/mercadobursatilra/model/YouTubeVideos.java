@@ -1,4 +1,4 @@
-package com.gerarje.mercadobursatilra.ui;
+package com.gerarje.mercadobursatilra.model;
 
 
 public class YouTubeVideos {

@@ -2,20 +2,17 @@ package com.gerarje.mercadobursatilra.ui;
 
 
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.webkit.WebChromeClient;
-import android.widget.FrameLayout;
 
 import java.util.Vector;
 
 import com.gerarje.mercadobursatilra.R;
+import com.gerarje.mercadobursatilra.adapter.VideoAdapter;
+import com.gerarje.mercadobursatilra.model.YouTubeVideos;
 
 public class ResourcesActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.gerarje.mercadobursatilra.ui;
+package com.gerarje.mercadobursatilra.adapter;
 
 
 import android.support.v7.widget.RecyclerView;
@@ -10,6 +10,7 @@ import android.webkit.WebView;
 import android.widget.TextView;
 
 import com.gerarje.mercadobursatilra.R;
+import com.gerarje.mercadobursatilra.model.YouTubeVideos;
 
 import java.util.List;
 
